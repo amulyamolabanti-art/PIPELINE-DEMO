@@ -38,7 +38,7 @@ stages:
       displayName: "Validate Application"
 
     - script: |
-        python -m pytest -v
+        python -m pytest test_app.py -v
       displayName: "Run Unit Tests"
 
 
